@@ -6,16 +6,17 @@ public class EvenNumbersScript : MonoBehaviour
 {
     int x = 22;
 
+   
 
     // Start is called before the first frame update
     void Start()
     {
-        while(x > 0)
+        Debug.Log("Start at 22");
+        while (x <= 100) 
         {
-            Debug.log ("Add 2")
-            x = x + 2;       
-         }
-    }
+            Debug.Log(x);
+            x = x + 2;
+        }
 
-   
+    }
 }
